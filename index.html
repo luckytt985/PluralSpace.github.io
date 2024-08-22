@@ -1,7 +1,52 @@
-<h1>PluralSpace</h1>
-<section>
-	<h2>Welcome to the <em>only</em> plural social media you'll ever need!</h2>
-	<p> Our goal is to create a safe space for those struggling with plurality, or even simply living with it. </p>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FrontSpace</title>
+	<style>
+		/* Basic reset for margin and padding */
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif; /* Optional: Set a default font */
+		}
 
-<a href="resources.html">resources</a>
+		/* Center the h1 and section horizontally */
+		h1, section {
+			text-align: center; /* Center text horizontally */
+			margin-top: 20px; /* Space between the top and the text */
+		}
+
+		/* Optional: Add hover effect for link */
+		a:hover {
+			text-decoration: underline; /* Add underline on hover */
+		}
+
+		.greenbutton {
+			background-color: rgb(42, 119, 51);
+			color: rgb(42, 200, 51);
+			border: none;
+			border-radius: 3px;
+			height: 20px;
+		}
+
+		.logoimg {
+			width: 600px;
+			height: 400px;
+		}
+	</style>
+</head>
+<body>
+	<section>
+		<img class="logoimg" src="logo.PNG" alt="FrontSpace Logo" />
+		<h2>Welcome to the <em>only</em> plural social media you'll ever need!</h2>
+		<p> Our goal is to create a safe space for those struggling with plurality, or even simply living with it. </p>
+
+		<button class="greenbutton" onclick="window.location.href='resources.html'">
+			Resources
+		</button>
+	</section>
+
+</body>
+</html>
